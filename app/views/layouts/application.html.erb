@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rocky Peter</title>
+    <title>Rocky Peter | Singer + Songwriter</title>
     <%= csrf_meta_tags %>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -10,7 +12,7 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
       </script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -60,5 +62,29 @@
     <div class="container">
       <%= yield %>
     </div>
+
+
+
   </body>
+  <footer>
+
+    <ul>
+      <li>
+      <a href="https://twitter.com/rprockypeter"><i class="fa fa-twitter fa-3x fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.facebook.com/RockyPeterAjoku/?fref=ts"><i class="fa fa-facebook-official fa-3x fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://instagram.com/rprockypeter"><i class="fa fa-instagram fa-3x fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://itunes.apple.com/us/artist/rocky-peter/id1084578529"><i class="fa fa-music fa-3x fa-fw" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.youtube.com/user/NigerianRock"><i class="fa fa-youtube-play fa-3x fa-fw" aria-hidden="true"></i>
+      </a>
+      </li>
+    </ul>
+<br>
+<br>
+    <p>© <%= Date.today.year %> <a href="https://github.com/bingr001" target="_blank" class="attribution">Professional Web Site Design - Brent Jay Ingram</a></p>
+
+  </footer>
   </html>
